@@ -1,3 +1,10 @@
+---
+layout: post
+title: bean的生命周期
+date: 2020-01-02 19:20:23 +0900
+category: spring
+---
+
 ### 生命周期
 
 
@@ -6,7 +13,7 @@
 
 bean 生命周期图
 
-![image-20211227222931997](/Users/oraliyuan/Library/Application Support/typora-user-images/image-20211227222931997.png)
+![image-20211227222931997](../../image/image-20211227222931997.png)
 
 
 
@@ -22,7 +29,7 @@ Xxx.class→无参构造（推断构造方法）→普通对象→依赖注入�
 
 bean 扫描流程
 
-![image-20211227223147428](/Users/oraliyuan/Library/Application Support/typora-user-images/image-20211227223147428.png)
+![image-20211227223147428](../../image/image-20211227223147428.png)
 
 
 
@@ -103,4 +110,3 @@ SmartInitializingSingleton.afterSingletonsInstantiated()
 
 
 
-todo 自己画个图

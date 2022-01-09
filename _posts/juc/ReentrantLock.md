@@ -391,7 +391,7 @@ public class ReentrantLockDemo {
 
 此处体现公平和非公平锁：
 
-![image-20211231180409597](/Users/oraliyuan/Library/Application Support/typora-user-images/image-20211231180409597.png)
+![image-20211231180409597](../../image/image-20211231180409597.png)
 
 
 
@@ -399,7 +399,7 @@ public class ReentrantLockDemo {
 
 
 
-![image-20211231183259982](/Users/oraliyuan/Library/Application Support/typora-user-images/image-20211231183259982.png)
+![image-20211231183259982](../../image/image-20211231183259982.png)
 
 
 

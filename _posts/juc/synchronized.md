@@ -43,7 +43,7 @@ public static void decrement() {
 
 synchronized 同步块是 Java 提供的一种原子性内置锁，Java 中的每个对象都可以把它当作一个同步锁来使用，这些 Java 内置的使用者看不到的锁被称为内置锁，也叫作监视器锁。
 
-![image-20211231012256469](/Users/oraliyuan/Library/Application Support/typora-user-images/image-20211231012256469.png)
+![image-20211231012256469](../../image/image-20211231012256469.png)
 
 
 
@@ -99,13 +99,13 @@ ObjectMonitor() {
 
 一种管程的具体模型。在管程的发展史上，先后出现过三种不同的管程模型，分别是Hasen模型、Hoare模型和MESA模型。现在正在广泛使用的是MESA模型。
 
-![image-20211231013017592](/Users/oraliyuan/Library/Application Support/typora-user-images/image-20211231013017592.png)
+![image-20211231013017592](../../image/image-20211231013017592.png)
 
 管程在JVM中的具体实现的流程图：
 
 在获取锁时，是将当前线程插入到cxq的头部，而释放锁时：如果EntryList为空，则将cxq中的元素按原有顺序插入到EntryList，并唤醒第一个线程，也就是当EntryList为空时，是后来的线程先获取锁（所以synchronized 是非公平锁）。_EntryList不为空，直接从_EntryList中唤醒线程。
 
-![image-20211231013041982](/Users/oraliyuan/Library/Application Support/typora-user-images/image-20211231013041982.png)
+![image-20211231013041982](../../image/image-20211231013041982.png)
 
 
 
@@ -126,19 +126,19 @@ ObjectMonitor() {
 
 32 位 JVM下的对象头结构：
 
-![image-20211231013751790](/Users/oraliyuan/Library/Application Support/typora-user-images/image-20211231013751790.png)
+![image-20211231013751790](../../image/image-20211231013751790.png)
 
 
 
 64 位JVM下的对象头结构：
 
-![image-20211231013829484](/Users/oraliyuan/Library/Application Support/typora-user-images/image-20211231013829484.png)
+![image-20211231013829484](../../image/image-20211231013829484.png)
 
 
 
 锁相关标识位：
 
-![image-20211231013915698](/Users/oraliyuan/Library/Application Support/typora-user-images/image-20211231013915698.png)
+![image-20211231013915698](../../image/image-20211231013915698.png)
 
 
 
@@ -168,7 +168,7 @@ public static void main(String[] args) throws InterruptedException {
 
 
 
-![image-20211231124440913](/Users/oraliyuan/Library/Application Support/typora-user-images/image-20211231124440913.png)
+![image-20211231124440913](../../image/image-20211231124440913.png)
 
 
 
@@ -201,7 +201,7 @@ public static void main(String[] args) throws InterruptedException {
 
 
 
-![image-20211231133245390](/Users/oraliyuan/Library/Application Support/typora-user-images/image-20211231133245390.png)
+![image-20211231133245390](../../image/image-20211231133245390.png)
 
 
 

@@ -1,6 +1,9 @@
-
-
-
+---
+layout: post
+title: Spring基本原理及常用类
+date: 2020-01-02 19:20:23 +0900
+category: spring
+---
 
 
 
@@ -126,7 +129,7 @@ ApplicationContext 各个父类作用
 5. ApplicationEventPublisher:拥有广播事件的功能(没有添加事件监听器的功能)
 6. MessageSource:拥有国际化功能
 
-![image-20211227171129580](/Users/oraliyuan/Library/Application Support/typora-user-images/image-20211227171129580.png)
+![image-20211227171129580](../../image/image-20211227171129580.png)
 
 
 
@@ -134,13 +137,13 @@ ApplicationContext 各个父类作用
 
 org.springframework.context.support.GenericApplicationContext#beanFactory 的默认工厂是`DefaultListableBeanFactory`
 
-![image-20211227170200606](/Users/oraliyuan/Library/Application Support/typora-user-images/image-20211227170200606.png)
+![image-20211227170200606](../../image/image-20211227170200606.png)
 
 
 
 ###### 3.1.1 实现类 ClassPathXmlApplicationContext 示意图
 
-![image-20211227172805036](/Users/oraliyuan/Library/Application Support/typora-user-images/image-20211227172805036.png)
+![image-20211227172805036](../../image/image-20211227172805036.png)
 
 
 
@@ -252,7 +255,7 @@ DefaultListableBeanFactory 可以将它看作一种IOC 容器, 下面没什么�
 14. AbstractAutowireCapableBeanFactory:继承了AbstractBeanFactory，实现了 AutowireCapableBeanFactory，拥有了自动装配的功能
 15. DefaultListableBeanFactory:继承了AbstractAutowireCapableBeanFactory，实现了 ConfigurableListableBeanFactory接口和BeanDefinitionRegistry接口，所以 DefaultListableBeanFactory的功能很强大
 
-![image-20211227171856515](/Users/oraliyuan/Library/Application Support/typora-user-images/image-20211227171856515.png)
+![image-20211227171856515](../../image/image-20211227171856515.png)
 
 
 

@@ -72,7 +72,7 @@ false 5
 
 当有多个线程对一个原子类进行操作的时候，某个线程在短时间内将原子类的值A修改为B，又马上将其修改为A，此时其他线程不感知，还是会修改成功。
 
-![image-20211231003250007](/Users/oraliyuan/Library/Application Support/typora-user-images/image-20211231003250007.png)
+![image-20211231003250007](../../image/image-20211231003250007.png)
 
 解决方案：
 
@@ -85,11 +85,11 @@ java 提供了工具类 ：
 
 
 
-![image-20211231003455105](/Users/oraliyuan/Library/Application Support/typora-user-images/image-20211231003455105.png)
+![image-20211231003455105](../../image/image-20211231003455105.png)
 
 
 
-![image-20211231003717304](/Users/oraliyuan/Library/Application Support/typora-user-images/image-20211231003717304.png)
+![image-20211231003717304](../../image/image-20211231003717304.png)
 
 
 
@@ -244,7 +244,7 @@ public class LongAdderTest {
 
 
 
-![image-20211231005152749](/Users/oraliyuan/Library/Application Support/typora-user-images/image-20211231005152749.png)
+![image-20211231005152749](../../image/image-20211231005152749.png)
 
 
 
@@ -252,23 +252,23 @@ AtomicLong中有个内部变量value保存着实际的long值，所有的操作�
 
 如图
 
-![image-20211231005825333](/Users/oraliyuan/Library/Application Support/typora-user-images/image-20211231005825333.png)
+![image-20211231005825333](../../image/image-20211231005825333.png)
 
 
 
-![image-20211231005420221](/Users/oraliyuan/Library/Application Support/typora-user-images/image-20211231005420221.png)
+![image-20211231005420221](../../image/image-20211231005420221.png)
 
 
 
 
 
-![image-20211231005735532](/Users/oraliyuan/Library/Application Support/typora-user-images/image-20211231005735532.png)
+![image-20211231005735532](../../image/image-20211231005735532.png)
 
 
 
 add 操作流程图
 
-![image-20211231005850302](/Users/oraliyuan/Library/Application Support/typora-user-images/image-20211231005850302.png)
+![image-20211231005850302](../../image/image-20211231005850302.png)
 
 ```java
     public void add(long x) {
@@ -287,7 +287,7 @@ add 操作流程图
 
 
 
-![image-20211231010251430](/Users/oraliyuan/Library/Application Support/typora-user-images/image-20211231010251430.png)
+![image-20211231010251430](../../image/image-20211231010251430.png)
 
 
 

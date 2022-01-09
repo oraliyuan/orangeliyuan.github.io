@@ -84,7 +84,7 @@
 用户态：**User Mode**
 在用户模式下，执行代码不能直接访问硬件或引用内存。在用户模式下运行的代码必须委托给系统api来访问硬件或内存。由于这种隔离提供的保护，用户模式下的崩溃总是可恢复的。在您的计算机上运行的大多数代码将在用户模式下执行。
 
-![image-20211229000129852](/Users/oraliyuan/Library/Application Support/typora-user-images/image-20211229000129852.png)
+![image-20211229000129852](../../image/image-20211229000129852.png)
 
 
 
@@ -107,7 +107,7 @@ vmstat 1
 
 初始状态、可运行状态、运行状态、休眠状态和终止状态。
 
-![image-20211229000448089](/Users/oraliyuan/Library/Application Support/typora-user-images/image-20211229000448089.png)
+![image-20211229000448089](../../image/image-20211229000448089.png)
 
 
 
@@ -128,7 +128,7 @@ Java 层面的线程生命周期
 5. TIMED_WAITING（有时限等待）
 6. TERMINATED（终止状态）
 
-![image-20211229001246243](/Users/oraliyuan/Library/Application Support/typora-user-images/image-20211229001246243.png)
+![image-20211229001246243](../../image/image-20211229001246243.png)
 
 
 
